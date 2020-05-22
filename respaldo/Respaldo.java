@@ -103,12 +103,12 @@ public class Respaldo {
             // Mostrar notificacion de informacion:
             switch (mensaje) {
                 case MENSAJE_CORRECTO:
-                    trayIcon.displayMessage("InnoCost respaldo realizado",
+                    trayIcon.displayMessage("Respaldo realizado",
                             "El respado de la base de datos se ha realizado correctamente", MessageType.INFO);
                     break;
                 case MENSAJE_ERROR:
                     // Error
-                    trayIcon.displayMessage("InnoCost respaldo fallido",
+                    trayIcon.displayMessage("Respaldo fallido",
                             "El respado de la base de datos fallo revise los datos", MessageType.ERROR);
                     break;
                 default:
