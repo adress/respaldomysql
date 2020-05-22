@@ -1,5 +1,5 @@
 # Respaldomysql
-script en java para realizar un respaldo sql de uan base de datos en mariadb o mysql
+script en java para realizar un respaldo sql de uan base de datos en mariadb o mysql y mostrar una notificacion en el sistema
 
 
 ### PARA CONFIGURAR DE LADO SERVIDOR WINDOWS
