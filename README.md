@@ -23,7 +23,7 @@ Programar una tarea semanal para que ejecute el ejecutable respaldo.jar para ell
     protected String password = "userpass";
     protected String database = "dbname";
 
-- configurar la ruta donde se va a guardar el archivo SQL con el respaldo de la base de datos aqui se peude usar \*usuariolog\* y \*fechaactual\* para obetner el uauario actual y la fecha respectivamente.
+- configurar la ruta donde se va a guardar el archivo SQL con el respaldo de la base de datos aqui se peude usar $usuariolog y $fechaactual para obetner el uauario actual y la fecha respectivamente.
 
 
     private String ruta
