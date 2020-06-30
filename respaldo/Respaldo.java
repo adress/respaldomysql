@@ -169,7 +169,7 @@ public class Respaldo {
         int contadorLineas = 0;
 
         //conexion de la base de datos con el servicio mysqldump
-        Process proceso = Runtime.getRuntime().exec("mysqldump -u " + user + " -p" + password + " " + database);
+        Process proceso = Runtime.getRuntime().exec("mysqldump --single-transaction -u "+user+" -p"+password+" "+database);
 
         //guarda la salida del comando en el archivo de la ruta
         InputStream is = proceso.getInputStream();
